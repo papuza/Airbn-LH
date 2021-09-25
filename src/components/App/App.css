@@ -1,0 +1,120 @@
+
+@media screen and (max-width: 1025px){
+  .navbar-item .control, .navbar-item .control .select, .navbar-item .control .select select{width: 100%; margin: 0;}
+  .container{max-width: 90% !important;}
+  .hero{height: 100vh !important;}
+  .navbar-item .control{margin: 5px 0;}
+}
+
+
+html{
+  background-color: #202424;
+}
+
+
+.hotels_not_found{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.hotels_not_found img{
+  width: 10%;
+  margin-top: 100px;
+}
+
+.hotels_not_found h2{
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hotels_not_found p{
+  font-size: 30px;
+}
+
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.hero{
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background: no-repeat center center url('../../imgs/hero.jpg') !important;
+}
+
+.hero_overlay{position: absolute; width: 100%; height: 100%; background-color: rgba(0, 107, 150, 0.733); z-index: 0;}
+
+.hero-body{display: flex; justify-content: center; align-items: center; flex-direction: column; z-index: 1;}
+
+.hero-body .title{ font-size: 50px;}
+
+.navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #385a7f;
+}
+
+.navbar .title, .navbar .subtitle{
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.navbar-menu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #209cee;
+}
+
+.navbar-item{
+  display: flex;
+  width: 100%;
+  max-width: 1152px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 0 ;
+  padding-left: 0;
+}
+
+
+.card{
+  color: #fff;
+  background-color: #282f2f;
+}
+
+.card .title{
+  color: #fff;
+}
+
+.fa-calendar{
+  color: black !important;
+}
+
+footer{
+  height: 20vh;
+  color: #fff;
+  background-color: #209cee;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p{
+  text-align: center;
+  max-width: 90%;
+}
